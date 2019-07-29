@@ -1,6 +1,6 @@
 // Global variable
 // Arrays and Variable for holding data
-var wordOptions = ["trump" ,"obama", "bush", "clinton", "bush", "reagan", "carter", "ford"];
+var wordOptions = ["trump" ,"obama", "bush", "clinton", "bush", "reagan", "carter", "ford", "nixon", "johnson"];
 var selectedWord = "";
 var lettersInWord = [];
 var numBlanks = 0;
@@ -19,7 +19,7 @@ function startGame () {
     numBlanks = lettersInWord.length;
 
     // Reset game
-    guessesLeft = 9;
+    guessesLeft = 10;
     wrongLetters = [];
     blanksAndSuccesses = [];
 
